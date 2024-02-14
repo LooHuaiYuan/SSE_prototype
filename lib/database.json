@@ -1,0 +1,390 @@
+{
+  "Lecturer_authentication": [
+    {
+      "id": "1",
+      "user_id": "L282143",
+      "password": "111"
+    },
+    {
+      "id": "2",
+      "user_id": "L295678",
+      "password": "222"
+    },
+    {
+      "id": "3",
+      "user_id": "L210987",
+      "password": "333"
+    }
+  ],
+  "Student_authentication": [
+    {
+      "id": "1",
+      "user_id": "S213762",
+      "password": "111"
+    },
+    {
+      "id": "2",
+      "user_id": "S215432",
+      "password": "222"
+    },
+    {
+      "id": "3",
+      "user_id": "S218765",
+      "password": "333"
+    }
+  ],
+  "Lecturer_information": [
+    {
+      "id": "1",
+      "name": "Sumayah",
+      "lecturer_id": "L282143",
+      "position": "Prof. Sumayah",
+      "department": "Networking",
+      "faculty": "FSKTM",
+      "Status": "Active",
+      "phone-number": "011-16883741"
+    },
+    {
+      "id": "2",
+      "name": "Alexander",
+      "lecturer_id": "L295678",
+      "position": "Dr. Alexander",
+      "department": "Artificial Intelligence",
+      "faculty": "FSKTM",
+      "Status": "Active",
+      "phone-number": "012-34567890"
+    },
+    {
+      "id": "3",
+      "name": "Sophie",
+      "lecturer_id": "L210987",
+      "position": "Assoc. Prof. Sophie",
+      "department": "Computer Science",
+      "faculty": "FSKTM",
+      "Status": "Active",
+      "phone-number": "019-87654321"
+    }
+  ],
+  "Student_information": [
+    {
+      "id": "1",
+      "name": "Jacob",
+      "student_id": "S213762",
+      "faculty": "FSKTM",
+      "Course": "Software Engineering",
+      "Status": "Active",
+      "phone-number": "011-16883741"
+    },
+    {
+      "id": "2",
+      "name": "Emily",
+      "student_id": "S215432",
+      "faculty": "FCM",
+      "Course": "Business Administration",
+      "Status": "Active",
+      "phone-number": "012-34567890"
+    },
+    {
+      "id": "3",
+      "name": "Michael",
+      "student_id": "S218765",
+      "faculty": "FOE",
+      "Course": "Electrical Engineering",
+      "Status": "Inactive",
+      "phone-number": "019-87654321"
+    }
+  ],
+  "SSE3301_2018passYear": [
+    {
+      "question_id": 1,
+      "question": "Question 1: What is the primary goal of software architecture? (2M)",
+      "option1": "Code optimization",
+      "option2": "User interface design",
+      "option3": "Managing complexity and achieving system goals",
+      "option4": "Hardware configuration",
+      "correct_answer": "option3",
+      "id": "3a9c"
+    },
+    {
+      "question_id": 2,
+      "question": "Question 2: Which design principle promotes the separation of concerns in software systems? (2M)",
+      "option1": "Singleton Pattern",
+      "option2": "MVC (Model-View-Controller)",
+      "option3": "Prototype Pattern",
+      "option4": "Adapter Pattern",
+      "correct_answer": "option2",
+      "id": "d81b"
+    },
+    {
+      "question_id": 3,
+      "question": "Question 3: What is the role of a design pattern in software development? (2M)",
+      "option1": "Improving code readability",
+      "option2": "Providing a proven solution to a recurring design problem",
+      "option3": "Enhancing software security",
+      "option4": "Minimizing code duplication",
+      "correct_answer": "option2",
+      "id": "3f23"
+    },
+    {
+      "question_id": 4,
+      "question": "Question 4: Which software architecture pattern is suitable for building scalable and loosely coupled systems? (2M)",
+      "option1": "Monolithic Architecture",
+      "option2": "Microservices Architecture",
+      "option3": "Layered Architecture",
+      "option4": "Client-Server Architecture",
+      "correct_answer": "option2",
+      "id": "bcd3"
+    },
+    {
+      "question_id": 5,
+      "question": "Question 5: What is the purpose of a UML (Unified Modeling Language) diagram in software design? (2M)",
+      "option1": "Representing code implementation details",
+      "option2": "Documenting software architecture and design",
+      "option3": "Testing software performance",
+      "option4": "Debugging source code",
+      "correct_answer": "option2",
+      "id": "91c2"
+    }
+  ],
+  "SSE3301_2020passYear": [
+    {
+      "question_id": 1,
+      "question": "Question 1: What is the significance of the SOLID principles in object-oriented design? (3M)",
+      "option1": "Ensuring code uniqueness",
+      "option2": "Defining database schemas",
+      "option3": "Promoting maintainability and extensibility",
+      "option4": "Optimizing runtime performance",
+      "correct_answer": "option3",
+      "id": "c0db"
+    },
+    {
+      "question_id": 2,
+      "question": "Question 2: In software architecture, what does 'scalability' refer to? (3M)",
+      "option1": "The ability to handle a growing amount of work",
+      "option2": "The physical size of software files",
+      "option3": "The speed of program execution",
+      "option4": "The flexibility of user interfaces",
+      "correct_answer": "option1",
+      "id": "7996"
+    },
+    {
+      "question_id": 3,
+      "question": "Question 3: Explain the concept of 'coupling' in software design. (3M)",
+      "option1": "The degree of interdependence between software components",
+      "option2": "The process of connecting external devices to a computer",
+      "option3": "The alignment of code indentation",
+      "option4": "The organization of code comments",
+      "correct_answer": "option1",
+      "id": "4ac1"
+    },
+    {
+      "question_id": 4,
+      "question": "Question 4: What role does the 'Observer' pattern play in software design? (3M)",
+      "option1": "Managing database connections",
+      "option2": "Defining user interface layouts",
+      "option3": "Defining a one-to-many dependency between objects",
+      "option4": "Optimizing algorithm efficiency",
+      "correct_answer": "option3",
+      "id": "f8dd"
+    },
+    {
+      "question_id": 5,
+      "question": "Question 5: How does the 'MVC' architecture pattern contribute to software development? (3M)",
+      "option1": "Ensuring database integrity",
+      "option2": "Separating application logic into three interconnected components",
+      "option3": "Controlling network communication",
+      "option4": "Optimizing code compilation",
+      "correct_answer": "option2",
+      "id": "40d4"
+    }
+  ],
+  "SSE3301_2018passYear_set2": [
+    {
+      "question_id": 1,
+      "question": "Question 1: What is the purpose of a 'CRC Card' in the context of object-oriented design? (3M)",
+      "option1": "Tracking software bugs",
+      "option2": "Documenting class responsibilities and collaborations",
+      "option3": "Managing software licenses",
+      "option4": "Executing code inspections",
+      "correct_answer": "option2",
+      "id": "d94c"
+    },
+    {
+      "question_id": 2,
+      "question": "Question 2: Describe the concept of 'Cohesion' in software design. (3M)",
+      "option1": "The degree to which elements of a module belong together",
+      "option2": "The process of code compilation",
+      "option3": "The alignment of code comments",
+      "option4": "The process of deploying software to production",
+      "correct_answer": "option1",
+      "id": "f417"
+    },
+    {
+      "question_id": 3,
+      "question": "Question 3: What is the primary purpose of an 'Architectural Style' in software architecture? (3M)",
+      "option1": "Determining the font styles used in user interfaces",
+      "option2": "Providing a set of design principles and patterns for building software systems",
+      "option3": "Optimizing database queries",
+      "option4": "Creating software backups",
+      "correct_answer": "option2",
+      "id": "8822"
+    },
+    {
+      "question_id": 4,
+      "question": "Question 4: Explain the concept of 'Microservices' and its benefits. (3M)",
+      "option1": "A small unit of code that performs a specific task",
+      "option2": "A design pattern for building large, complex applications as a set of small, independent services",
+      "option3": "A type of user interface design",
+      "option4": "A version control system",
+      "correct_answer": "option2",
+      "id": "16c9"
+    },
+    {
+      "question_id": 5,
+      "question": "Question 5: How does the 'Dependency Injection' pattern improve software modularity? (3M)",
+      "option1": "Reducing code duplication",
+      "option2": "Managing external dependencies",
+      "option3": "Ensuring data consistency in databases",
+      "option4": "Providing a way to supply a dependent object with its dependencies",
+      "correct_answer": "option4",
+      "id": "54b9"
+    }
+  ],
+  "Student_performance": [
+    {
+      "name": "Jacob",
+      "timeSpent": "1 hour and 25 mins",
+      "overallScores": "88%",
+      "q1": "2",
+      "q2": "1",
+      "q3": "1,5",
+      "data1": "62",
+      "data2": "95",
+      "data3": "65",
+      "data4": "40",
+      "data5": "60",
+      "id": "8c86"
+    },
+    {
+      "name": "Jacob",
+      "timeSpent": "45 mins",
+      "overallScores": "70%",
+      "q1": "1",
+      "q2": "1.5",
+      "q3": "2",
+      "data1": "50",
+      "data2": "75",
+      "data3": "80",
+      "data4": "55",
+      "data5": "70",
+      "id": "553c"
+    },
+    {
+      "name": "Jacob",
+      "timeSpent": "1 hour and 50 mins",
+      "overallScores": "95%",
+      "q1": "3",
+      "q2": "2.5",
+      "q3": "2",
+      "data1": "85",
+      "data2": "98",
+      "data3": "75",
+      "data4": "65",
+      "data5": "90",
+      "id": "9b70"
+    },
+    {
+      "name": "Jacob",
+      "timeSpent": "2 hours",
+      "overallScores": "50%",
+      "q1": "1",
+      "q2": "2",
+      "q3": "3",
+      "data1": "60",
+      "data2": "50",
+      "data3": "55",
+      "data4": "75",
+      "data5": "80",
+      "id": "424d"
+    },
+    {
+      "name": "Jacob",
+      "timeSpent": "1 hour and 15 mins",
+      "overallScores": "80%",
+      "q1": "2.5",
+      "q2": "2",
+      "q3": "1",
+      "data1": "75",
+      "data2": "88",
+      "data3": "70",
+      "data4": "80",
+      "data5": "95",
+      "id": "8896"
+    }
+  ],
+  "CSC3101_Exam1": [
+    {
+      "id": "1",
+      "question": "Define encapsulation, inheritance, and polymorphism in the context of object-oriented programming. Provide an example for each concept and explain how they contribute to code organization and reusability.(3M)"
+    },
+    {
+      "id": "2",
+      "question": "Differentiate between a class and an object. Explain the significance of constructors in a class and how they are used to initialize object properties. Provide a simple code snippet in a programming language of your choice to illustrate the creation of a class with a constructor.(3M)"
+    },
+    {
+      "id": "3",
+      "question": "Discuss the advantages and disadvantages of using inheritance versus composition in OOP. Provide a scenario where inheritance is a suitable choice and another scenario where composition would be more appropriate. Include code snippets or pseudo-code examples to support your explanation.(3M)"
+    },
+    {
+      "id": "4",
+      "question": "Explain the concept of polymorphism and how it can be achieved through method overloading and method overriding. Discuss the role of interfaces in achieving polymorphism. Provide an example in a programming language of your choice to demonstrate the implementation of interfaces and polymorphism.(3M)"
+    },
+    {
+      "id": "5",
+      "question": "Describe the importance of exception handling in object-oriented programming. Provide examples of common exceptions that might occur in OOP and how they can be effectively handled. Discuss the role of try-catch blocks and how they contribute to robust and reliable OOP code.(3M)"
+    }
+  ],
+  "CSC3101_Exam2": [
+    {
+      "id": "1",
+      "question1": "Define encapsulation, inheritance, and polymorphism in the context of object-oriented programming. Provide an example for each concept and explain how they contribute to code organization and reusability.",
+      "question2": "Differentiate between a class and an object. Explain the significance of constructors in a class and how they are used to initialize object properties. Provide a simple code snippet in a programming language of your choice to illustrate the creation of a class with a constructor.",
+      "question3": "Discuss the advantages and disadvantages of using inheritance versus composition in OOP. Provide a scenario where inheritance is a suitable choice and another scenario where composition would be more appropriate. Include code snippets or pseudo-code examples to support your explanation.",
+      "question4": "Explain the concept of polymorphism and how it can be achieved through method overloading and method overriding. Discuss the role of interfaces in achieving polymorphism. Provide an example in a programming language of your choice to demonstrate the implementation of interfaces and polymorphism.",
+      "question5": "Describe the importance of exception handling in object-oriented programming. Provide examples of common exceptions that might occur in OOP and how they can be effectively handled. Discuss the role of try-catch blocks and how they contribute to robust and reliable OOP code."
+    },
+    {
+      "id": "2",
+      "question1": "ASASASA",
+      "question2": "SCSCS",
+      "question3": "QDQDQQ",
+      "question4": "QQDQDQ",
+      "question5": "DADA",
+      "explanation1": "SASAS",
+      "explanation2": "FWFW",
+      "explanation3": "SASASA",
+      "explanation4": "ADADAA",
+      "explanation5": "ADADA"
+    }
+  ],
+  "CSC3101_Exam2_Answer": [
+    {
+      "id": "1",
+      "answer1": "adadasdassa",
+      "answer2": "xsxaxxas",
+      "answer3": "asasasa",
+      "answer4": "efefd",
+      "answer5": "dadadad"
+    }
+  ],
+  "CSC3101_Exam2_Mark": [
+    {
+      "id": "1",
+      "mark1": "3",
+      "mark2": "1",
+      "mark3": "2",
+      "mark4": "1",
+      "mark5": "2"
+    }
+  ]
+}
